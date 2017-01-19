@@ -1,12 +1,7 @@
 import java.util.Scanner;
 
 /**
- * 
- */
-
-/**
  * @author davidshinabarger
- *
  */ 
 // PROGRAM GOAL: Prompt the user to input a numeric number. 
 // Reverse the Number
