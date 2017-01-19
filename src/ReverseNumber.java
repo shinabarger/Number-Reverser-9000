@@ -26,10 +26,14 @@ public class ReverseNumber {
 		System.out.println("Please enter a number: ");
 		Scanner in = new Scanner(System.in);
 		
-		// Assign user's input to userNumber
+		// Assign user's input to userNumber & display their number
 		userNumber = in.nextInt();
 		System.out.println("Your number: " + userNumber);
+		
+		//assign reverse method with userNumber paramater to reverseNumber
 		reverseNumber = reverse(userNumber);
+		
+		//display reverse number to user like a real magic trick
 		System.out.println("The reverse number is: " + reverseNumber);
 		//
 	}
@@ -38,6 +42,7 @@ public class ReverseNumber {
 		// TODO Auto-generated method stub
 		int reverseNumber = 0;
 		int tempNum;
+		//Calculate reverse number
 		while (userNumber > 0) {
 			tempNum = userNumber % 10;
 			userNumber = userNumber / 10;
